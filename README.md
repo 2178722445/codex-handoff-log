@@ -58,8 +58,8 @@ Codex 的对话之间不共享上下文，也不共享记忆。同一件事分�
 推荐写成"能取到值"的指针：
 
 ```
-- GitLab 凭据在 Windows 凭据管理器：`git credential fill`，host git.example.internal:8443，用户 <内网账号>
-- GitHub 凭据同样在凭据管理器，账号 <GitHub 账号>
+- 内网 GitLab 凭据在 Windows 凭据管理器：`git credential fill`，host `git.example.internal:8443`，用户 `<内网账号>`
+- GitHub 凭据同样在凭据管理器，账号 `<GitHub 账号>`
 ```
 
 脚本会兜底：`--read` 扫描两份笔记里的明文密钥（`sk-`、`gho_`、`AKIA`、私钥块、`token=`/`password=` 赋值），
@@ -126,14 +126,14 @@ node ~/.codex/skills/handoff-log/scripts/log.mjs --read
 node ~/.codex/skills/handoff-log/scripts/log.mjs --check
 
 # 发布仓库之前，扫一遍目录里的文本文件
-node ~/.codex/skills/handoff-log/scripts/log.mjs --check D:\projects\some-repo
+node ~/.codex/skills/handoff-log/scripts/log.mjs --check <你的仓库目录>
 ```
 
 `--read` 的输出形如：
 
 ```
 ===== 精炼交接笔记（由历次对话维护，当前状态快照）=====
-# D:\projects\demo · 交接笔记
+# <项目路径> · 交接笔记
 
 ## 当前目标
 把扩增模块的输入过滤对齐

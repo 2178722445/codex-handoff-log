@@ -54,7 +54,7 @@ node <本技能目录>/scripts/log.mjs --read    # 打印"精炼笔记 + 最近�
 笔记一旦被复制、粘贴或误提交，泄漏还是长期的。正确的写法是给一条能取到值的指针：
 
 ```
-- GitLab 凭据在 Windows 凭据管理器：`git credential fill`，host git.example.internal:8443，用户 <内网账号>
+- 内网 GitLab 凭据在 Windows 凭据管理器：`git credential fill`，host `git.example.internal:8443`，用户 `<内网账号>`
 ```
 
 `--read` 会主动扫描明文密钥（`sk-`、`gho_`、`AKIA`、私钥块、口令赋值），命中就在输出顶部报警。
