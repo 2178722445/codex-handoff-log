@@ -72,7 +72,7 @@ Codex 的对话之间不共享上下文，也不共享记忆。同一件事分�
 **1. 放进技能目录**
 
 ```bash
-git clone https://github.com/<你的账号>/codex-handoff-log.git ~/.codex/skills/handoff-log
+git clone https://github.com/2178722445/codex-handoff-log.git ~/.codex/skills/handoff-log
 ```
 
 Windows 上默认位置是 `C:\Users\<你>\.codex\skills\handoff-log`。
@@ -253,4 +253,4 @@ python <skill-creator>/scripts/quick_validate.py .
 
 ## 许可
 
-本仓库暂未附加开源许可证。若要允许他人自由复用、修改与再分发，建议补一个 `LICENSE`（例如 MIT）。
+MIT，见 [LICENSE](LICENSE)。
