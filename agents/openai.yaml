@@ -1,0 +1,4 @@
+interface:
+  display_name: "跨对话交接日志"
+  short_description: "把同一项目的多个对话用交接笔记串起来"
+  default_prompt: "用 $handoff-log 读一下这个项目上一次对话留下的笔记，从那继续。"

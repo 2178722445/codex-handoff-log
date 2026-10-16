@@ -1,0 +1,7 @@
+# 日志是个人数据，不进版本库
+logs/
+*.log
+errors.log
+# 每台机器的通知转发命令
+forward.txt
+node_modules/
